@@ -1,0 +1,45 @@
+body {
+    background-color: #f4f2fc;
+}
+
+.fixed-card {
+    width: 350px; 
+    background-color: white;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 10px; 
+}
+
+.card-grid {
+    max-height: 65vh;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 2px; 
+}
+
+.fixed-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-grid::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.card-grid::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px; 
+}
+
+.card-grid::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+.card-grid::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
