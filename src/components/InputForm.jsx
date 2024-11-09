@@ -46,11 +46,11 @@ class InputForm extends React.Component {
                     <form onSubmit={this.onSubmitHandler}>
                         <div className="form-group">
                             <label htmlFor="judul"><b>Judul:</b></label>
-                            <input onChange={this.onTitleChangeHandler} className="form-control" type="text" id="judul"/>
+                            <input onChange={this.onTitleChangeHandler} value={this.state.title} className="form-control" type="text" id="judul"/>
                         </div>
                         <div className="form-group">
                             <label htmlFor=""><b>Catatan:</b></label>
-                            <textarea onChange={this.onBodyChangeHandler} className="form-control" name="" id="" cols="20" rows="5"></textarea>
+                            <textarea onChange={this.onBodyChangeHandler} value={this.state.body} className="form-control" name="" id="" cols="20" rows="5"></textarea>
                         </div>
                         <div className="form-group">
                             <button type="submit" className="btn btn-success w-100 mt-2">Add Note</button>

@@ -31,7 +31,7 @@ class Main extends React.Component{
             id: new Date().toLocaleString(),
             title,
             body,
-            archieved: false,
+            archived: false,
             createdAt: new Date().toLocaleString()
   
           }

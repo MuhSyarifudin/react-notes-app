@@ -6,7 +6,12 @@ function CardBody({notes,onDelete}){
     return (
         <div className=" row card-grid justify-content-center align-items-star fixed-container col-md-8">
             {
-               notes.map((note)=>(<CardItem key={note.id} {...note} onDelete={onDelete}/>))
+                notes.length === 0 ? (
+                    <p className="text-center">Tidak ada catatan</p>
+                ) : (
+                    notes.map((note) => (
+                        <CardItem key={note.id} {...note} onDelete={onDelete} />
+                    )))
             }
         </div>
     );

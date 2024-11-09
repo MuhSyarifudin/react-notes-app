@@ -3,13 +3,13 @@ const getData = () => {
         {id: 1,
          title: "Lifecycle",
          body: "Dalam konteks React component, lifecycle merupakan kumpulan method yang menjadi siklus hidup mulai dari component dibuat (constructor), dicetak (render), pasca-cetak (componentDidMount), dan sebagainya.",
-         archieved: false,
+         archived: false,
          createdAt: "2024-10-31T23:32"
         },
         {id: 2,
          title: "Babel",
          body: "Babel merupakan tools open-source yang digunakan untuk mengubah sintaks ECMAScript 2015+ menjadi sintaks yang didukung oleh JavaScript engine versi lama. Babel sering dipakai ketika kita menggunakan sintaks terbaru termasuk sintaks JSX.",
-         archieved: false,
+         archived: false,
          createdAt: "2024-10-31T23:32"
         },
         {
